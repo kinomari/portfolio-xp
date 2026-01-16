@@ -120,7 +120,7 @@ function MenuItem({ icon, text, bold = false, onClick, link, submenu, isSubmenuI
         }
         {showSubmenu && (
           <div className={`${submenuPositionClass} w-56 bg-white border-t-white border-l-white border-r-black border-b-black border-2 font-xp text-sm shadow-lg z-50`}>
-            <ul className="p-1 space-y-0 max-h-[55vh] sm:max-h-[380px] overflow-y-auto">
+            <ul className="p-1 space-y-0 max-h-[55vh] sm:max-h-95 overflow-y-auto">
               {submenu.map((item, index) => (
                 item.isSeparator
                   ? <div key={index} className="border-t border-gray-400 my-1 mx-2" />
