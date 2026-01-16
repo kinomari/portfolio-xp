@@ -4,6 +4,12 @@ import MenuContent from "../components/MenuContent";
 import { useState } from "react"; 
 import WindowXP from "../components/WindowXP";
 import { useWindow } from "../context/useWindow";
+import projectsIcon from '../assets/projects.png';
+import aboutMeIcon from '../assets/about-me.png';
+import myResumeIcon from '../assets/my-resume.png';
+import contactMeIcon from '../assets/contact-me.png';
+
+
 
 function Home(){
     const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -13,10 +19,10 @@ function Home(){
     return(
         <div className="min-h-screen">
             <div className="flex flex-col items-start gap-2 mt-4 ml-8">
-                <Icons name="myResume.pdf" img="/src/assets/my-resume.png" />
-                <Icons name="Projects.exe" img="/src/assets/projects.png" />
-                <Icons name="Contact Me" img="/src/assets/contact.png" />
-                <Icons name="about_me.exe" img="/src/assets/about-me.png" />
+                <Icons name="myResume.pdf" img={myResumeIcon} />
+                <Icons name="Projects.exe" img={projectsIcon} />
+                <Icons name="Contact Me" img={contactMeIcon} />
+                <Icons name="about_me.exe" img={aboutMeIcon} />
             </div>
             {isMenuVisible && <MenuContent />}
             <Nav toggleMenu={toggleMenu} />
