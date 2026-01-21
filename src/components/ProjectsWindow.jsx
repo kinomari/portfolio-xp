@@ -6,17 +6,14 @@ import crudImg from "../assets/crud.png";
 
 const projects = [
   {
-    title: "Meu Portfolio - Esse Site :D",
+    title: "Meu Portfolio :D",
     link: "https://kinomari.vercel.app/",
     image: futabaImg,
-    description: "Esse site! Feito com React, Tailwind CSS!",
+    description: "Pequeno projeto desenvolvido em um workshop na Faculdade.",
     tools: [
-      { name: "React", icon: <FaReact /> },
-      { name: "Vite", icon: <FaBolt /> },
+      { name: "HTML", icon: <FaHtml5 /> },
       { name: "CSS", icon: <FaCss3Alt /> },
-      { name: "Figma", icon: <FaFigma /> },
-      { name: "Tailwind CSS", icon: <FaCss3Alt /> },
-      { name: "JavaScript", icon: <FaJsSquare /> },
+
     ],
   },
   {
