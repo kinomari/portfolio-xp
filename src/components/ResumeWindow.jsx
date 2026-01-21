@@ -16,7 +16,7 @@ function ResumeWindow() {
       onclone: (clonedDoc) => {
         const hr = clonedDoc.querySelector('hr');
         if (hr) {
-          hr.style.borderColor = '#d1d5db'; 
+          hr.style.borderColor = '#d1d5db';
         }
         clonedDoc.body.style.color = 'black';
       },
@@ -60,59 +60,44 @@ function ResumeWindow() {
         <span className="px-2 py-0.5 text-gray-500 cursor-default"><u>V</u>iew</span>
       </div>
       <div className="p-4 overflow-y-auto flex-1" ref={contentRef}>
-        <h2 className="text-base font-bold">Lívia Neves</h2>
+        <h2 className="text-base font-bold">Mariana Scarpi</h2>
         <p>
-          Email: livianeves.dev@gmail.com<br />
-          LinkedIn: linkedin.com/in/liv-neves | GitHub: liv-inn
+          Email: marianascarpi19@gmail.com<br />
+          LinkedIn: linkedin.com/in/mariana-scarpi-461549288/ | GitHub: kinomari
         </p>
 
         <hr className="my-2 border-gray-300" />
 
         <h3 className="font-bold mt-2">Summary</h3>
         <p className="mt-1">
-          Front-end developer and Internet Systems student with strong experience in React.js, Tailwind CSS, and REST API integration. Demonstrated ability to deliver responsive, accessible, and user-focused interfaces in academic and freelance projects. Skilled in JavaScript, Java (Spring Boot), and modern development tools, with a solid understanding of UX/UI principles, cross-browser compatibility, and agile methodologies. Eager to contribute and grow in collaborative development environments.
+          Sou estudante de Análise e Desenvolvimento de Sistemas, em formação como desenvolvedora de software, com foco em desenvolvimento web e construção de aplicações funcionais e
+          bem estruturadas.Tenho conhecimentos em Java, JavaScript,
+          HTML, CSS e SQL, além de experiência acadêmica com Spring
+          Boot, MySQL, MVC, APIs REST e CRUD. Utilizo Git e GitHub
+          para versionamento e organização dos projetos, sempre buscando
+          boas práticas de código e lógica de programação.Participo
+          ativamente de projetos acadêmicos e pessoais, nos quais aplico
+          conceitos de programação orientada a objetos, modelagem de
+          dados e organização de sistemas. Tenho facilidade em aprender
+          novas tecnologias, gosto de resolver problemas e valorizo o
+          trabalho em equipe.Busco uma oportunidade de estágio em
+          desenvolvimento onde eu possa evoluir tecnicamente, contribuir
+          com soluções práticas e crescer junto com a equipe, transformando
+          conhecimento em impacto real.
         </p>
 
         <h3 className="font-bold mt-2">Experience</h3>
         <div className="mt-1">
-          <p><strong>Front-end Developer Freelancer — Academy Educação</strong> (Oct/2025 – Present)</p>
+          <p><strong>Ilustradora Freelancer</strong> (Jun/2017 – Presente)</p>
           <ul className="list-disc ml-5 mt-1">
-            <li>Developed and maintained user interfaces for educational platform.</li>
-            <li>Created interactivity with JavaScript (DOM manipulation and form validation).</li>
-            <li>Implemented responsive layouts using Bootstrap and Metronic.</li>
-            <li>Bug fixing and cross-browser testing, ensuring device compatibility.</li>
+            <li>Ilustração digital com foco em personagens originais.</li>
           </ul>
-        </div>
-
-        <h3 className="font-bold mt-2">Projects</h3>
-        <div className="mt-1 space-y-2">
-          <div>
-            <p><strong>Hitch – Digital Love Advisor with AI (Academic Project) — Hitch AI</strong> (Oct/2025)</p>
-            <ul className="list-disc ml-5 mt-1">
-              <li>Full front-end development using React.js and Tailwind CSS.</li>
-              <li>Created responsive UI with microinteractions, animations, and loading states.</li>
-              <li>Integrated with REST API in Spring Boot for smooth front-end/back-end communication.</li>
-            </ul>
-          </div>
-          <div>
-            <p><strong>Blue Zone Clinic Website Redesign (Academic Project) — BlueZone Clinic</strong> (Oct/2025)</p>
-            <ul className="list-disc ml-5 mt-1">
-              <li>Complete redesign focused on UX/UI, accessibility, and information clarity.</li>
-              <li>Developed new layout with React.js and Tailwind CSS.</li>
-            </ul>
-          </div>
-          <div>
-            <p><strong>Web Library System (Academic/Personal Project)</strong> (May/2025 – Jun/2025)</p>
-            <ul className="list-disc ml-5 mt-1">
-              <li>Developed web app with Spring Boot, Thymeleaf, and PostgreSQL.</li>
-            </ul>
-          </div>
         </div>
 
         <h3 className="font-bold mt-2">Education</h3>
         <p className="mt-1">
-          <strong>Bachelor of Technology in Internet Systems</strong><br />
-          FATEC Rubens Lara — Santos, SP <br />
+          <strong>Análise e Desenvolvimento de Sistemas</strong><br />
+          FATEC Baixada Santista Rubens Lara — Santos, SP <br />
           2023 – 2026
         </p>
 
@@ -120,8 +105,8 @@ function ResumeWindow() {
         <div className="mt-1">
           <p><strong>Front-end:</strong> HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Angular</p>
           <p><strong>Back-end:</strong>  Java, Spring Boot, REST APIs</p>
-          <p><strong>Databases:</strong> PostgreSQL, MongoDB</p>
-          <p><strong>Tools:</strong>     Git, Linux, Docker (basic), Figma</p>
+          <p><strong>Databases:</strong> SQL, MySQL</p>
+          <p><strong>Tools:</strong>     Git, Figma</p>
           <p><strong>Methods:</strong>   Scrum</p>
         </div>
       </div>

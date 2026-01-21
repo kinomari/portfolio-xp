@@ -27,19 +27,19 @@ function MyComputerWindow() {
             icon={<FaGithub size={32} className="text-gray-700" />}
             name="GitHub Drive (G:)"
             description="Browse my project repositories."
-            link="https://github.com/liv-inn"
+            link="https://github.com/kinomari"
           />
           <DriveItem
             icon={<FaLinkedin size={32} className="text-blue-700" />}
             name="LinkedIn Drive (L:)"
             description="View my professional profile."
-            link="https://www.linkedin.com/in/livia-a-neves/"
+            link="https://www.linkedin.com/in/mariana-scarpi-461549288/"
           />
           <DriveItem
             icon={<FaEnvelope size={32} className="text-red-500" />}
             name="Email"
             description="Send me a message."
-            link="mailto:livianeves.dev@gmail.com"
+            link="mailto:marianascarpi19@gmail.com"
           />
         </div>
       </div>

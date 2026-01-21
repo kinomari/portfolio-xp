@@ -1,16 +1,15 @@
 import { useState, useCallback } from "react";
-import { FaReact, FaFigma, FaCss3Alt, FaGamepad, FaJsSquare, FaJava, FaBolt } from "react-icons/fa";
-import portfolio2Img from "../assets/portfolio2.png";
-import portfolioImg from "../assets/portfolio.png";
-import hitchImg from "../assets/hitch.png";
-import bluezoneImg from "../assets/bluezone.png";
+import { FaReact, FaFigma, FaCss3Alt, FaGamepad, FaJsSquare, FaJava, FaBolt, FaHtml5, FaLeaf } from "react-icons/fa";
+import futabaImg from "../assets/futaba.jpg";
+import ebistolImg from "../assets/ebistol.png";
+import crudImg from "../assets/crud.png";
 
 const projects = [
   {
-    title: "My Portfolio - This Site :D",
-    link: "https://liv-xp-portfolio.vercel.app",
-    image: portfolio2Img,
-    description: "This very site! Built with React, Tailwind CSS, and lots of fun!.",
+    title: "Meu Portfolio - Esse Site :D",
+    link: "https://kinomari.vercel.app/",
+    image: futabaImg,
+    description: "Esse site! Feito com React, Tailwind CSS!",
     tools: [
       { name: "React", icon: <FaReact /> },
       { name: "Vite", icon: <FaBolt /> },
@@ -21,47 +20,24 @@ const projects = [
     ],
   },
   {
-    title: "Portfolio Landing Page",
-    link: "https://liv-inn.github.io/portifolio-landingpage/",
-    image: portfolioImg,
-    description: "My first portfolio landing page!",
+    title: "Ebistol, the Bubblenaut.",
+    link: "https://wolfdev77.itch.io/ebistol-the-bubblenaut",
+    image: ebistolImg,
+    description: "Jogo desenvolvido na Global Game Jam 2025!",
     tools: [
-      { name: "Figma", icon: <FaFigma /> },
-      { name: "CSS", icon: <FaCss3Alt /> },
       { name: "JavaScript", icon: <FaJsSquare /> },
-      { name: "React", icon: <FaReact /> },
-      { name: "Tailwind CSS", icon: <FaCss3Alt /> },
-
     ],
   },
-  {
-    title: "Hitch AI",
-    link: "https://hitch-conselheiro-amoroso.vercel.app",
-    image: hitchImg,
-    description: "An AI love advisor that provides personalized dating advice.",
+    {
+    title: "CRUD",
+    link: "https://www.youtube.com/watch?v=VTLC7z1P5wU",
+    image: crudImg,
+    description: "Mini projeto CRUD em Java (Spring Boot) com arquitetura MVC",
     tools: [
-      { name: "Figma", icon: <FaFigma /> },
-      { name: "CSS", icon: <FaCss3Alt /> },
-      { name: "React", icon: <FaReact /> },
-      { name: "Tailwind CSS", icon: <FaCss3Alt /> },
-      { name: "JavaScript", icon: <FaJsSquare /> },
-      { name: "Spring Boot", icon: <FaJava /> },
       { name: "Java", icon: <FaJava /> },
-      { name: "REST APIs", icon: <FaJava /> },
-
-    ],
-  },
-  {
-    title: "Blue Zone Clinic",
-    link: "https://fehmell.github.io/BlueZone-Clinic/",
-    image: bluezoneImg,
-    description: "Rebranding and redesign of the Blue Zone Clinic website.",
-    tools: [
-      { name: "React", icon: <FaReact /> },
-      { name: "Tailwind CSS", icon: <FaCss3Alt /> },
-      { name: "Figma", icon: <FaFigma /> },
+      { name: "HTML", icon: <FaHtml5 /> },
       { name: "CSS", icon: <FaCss3Alt /> },
-      { name: "JavaScript", icon: <FaJsSquare /> },
+      { name: "Thymeleaf", icon: <FaLeaf/> },
     ],
   },
 ];

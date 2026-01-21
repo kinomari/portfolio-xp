@@ -53,7 +53,7 @@ function ContactMeWindow() {
           <label className="w-16 text-gray-500">To:</label>
           <input
             type="text"
-            value="Lívia Neves <livianeves.dev@gmail.com>"
+            value="Mariana Scarpi <marianascarpi19@gmail.com>"
             disabled
             className="flex-1 bg-white text-xs outline-none px-1 py-0.5 border-l border-gray-400"
           />
